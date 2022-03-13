@@ -5,6 +5,13 @@ This can recognize digits, small and capital letters.
 
 The models were trained on the following characters: `0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabdefghnqrt`
 
+## Things to do before running:
+```commandline
+mkdir dataset
+mkdir generated_pickle
+mkdir logs
+```
+
 ## How to Run:
 Train the dataset into a proper model
 ```commandline
